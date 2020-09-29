@@ -12,6 +12,13 @@ RegisterCommand("fixgui", function()
     ESX.UI.Menu.CloseAll()
 end)
 
+RegisterNetEvent('esx:playerLoaded')
+AddEventHandler('esx:playerLoaded', function(playerData)
+Citizen.Trace("[sync_installer] Server installed with sync installer is working!")
+Citizen.Trace("[sync_installer] Server installed with sync installer is working!")
+Citizen.Trace("[sync_installer] Server installed with sync installer is working!")
+end)
+
 function DrawGenericText(text)
 	SetTextColour(186, 186, 186, 255)
 	SetTextFont(7)
