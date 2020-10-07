@@ -14,9 +14,9 @@ end)
 
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(playerData)
-Citizen.Trace("[sync_installer] Server installed with sync installer is working!")
-Citizen.Trace("[sync_installer] Server installed with sync installer is working!")
-Citizen.Trace("[sync_installer] Server installed with sync installer is working!")
+\nCitizen.Trace("[sync_installer] Server installed with sync installer is working!")
+\nCitizen.Trace("[sync_installer] Server installed with sync installer is working!")
+\nCitizen.Trace("[sync_installer] Server installed with sync installer is working!")
 end)
 
 function DrawGenericText(text)
